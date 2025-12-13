@@ -15,6 +15,13 @@ A simple PHP-based web application that demonstrates an event booking system alo
 
 ```
 /admin
+  admin-auth.php
+  admin-config.php
+  admin-header.php
+  admin-login.php
+  admin-logout.php
+  delete-booking.php
+  index.php
 blog.php
 book.php
 booking-process.php
@@ -39,6 +46,13 @@ shared-styles.css.php
 ## Purpose
 
 This project was created as a learning exercise to improve skills in PHP development, handling form submissions, connecting to databases, and organizing a small-scale web application.
+
+## Setup
+
+1. Clone the repository
+2. Import the database (if provided)
+3. Update database credentials in `db.php`
+4. Run the project using a local server (XAMPP, WAMP, or similar)
 
 ## Notes
 
