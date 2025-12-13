@@ -1,8 +1,8 @@
 <?php
-$host = 'sql100.infinityfree.com';
-$db   = 'if0_40664526_database';
-$user = 'if0_40664526';
-$pass = 'ASdasdasd1123';
+$host = '';
+$db   = '';
+$user = '';
+$pass = '';
 
 try {
   $pdo = new PDO(
