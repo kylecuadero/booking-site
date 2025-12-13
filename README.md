@@ -29,7 +29,7 @@ shared-footer.php
 shared-styles.css.php
 ```
 
-## Technologies Used
+## What I Used
 
 * PHP
 * MySQL
