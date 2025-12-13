@@ -99,7 +99,6 @@ $bookings = $pdo->query("
   color: var(--muted);
 }
 
-/* RESPONSIVE SWITCH */
 @media (max-width: 800px) {
   .admin-table {
     display: none;
@@ -135,7 +134,6 @@ $bookings = $pdo->query("
   <div class="admin-card">
     <div class="admin-title">All Bookings</div>
 
-    <!-- DESKTOP -->
     <table class="admin-table">
       <thead>
         <tr>
@@ -168,7 +166,6 @@ $bookings = $pdo->query("
       </tbody>
     </table>
 
-    <!-- MOBILE -->
     <?php foreach ($bookings as $b): ?>
       <div class="mobile-card">
         <div class="mobile-row"><strong>#<?= $b['id'] ?></strong></div>
