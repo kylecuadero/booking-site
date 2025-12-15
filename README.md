@@ -50,7 +50,7 @@ This project was created as a learning exercise to improve skills in PHP develop
 ## Setup
 
 1. Clone the repository
-2. Import the database (if provided)
+2. Import the database
 3. Update database credentials in `db.php`
 4. Run the project using a local server (XAMPP, WAMP, or similar)
 
